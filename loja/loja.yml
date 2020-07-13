@@ -3,3 +3,6 @@ spring:
     password: admin
     url: jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=UTC
     username: root
+  jpa:
+    hibernate:
+      ddl-auto: uplade  
