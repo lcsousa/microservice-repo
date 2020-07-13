@@ -3,6 +3,7 @@ spring:
     password: admin
     url: jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=UTC
     username: root
+spring:
   jpa:
     hibernate:
-      ddl-auto: create  
+      ddl-auto: create-drop
