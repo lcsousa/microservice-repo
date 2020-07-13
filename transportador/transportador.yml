@@ -1,1 +1,8 @@
-transportador
+spring:
+  datasource:
+    password: admin
+    url: jdbc:mysql://localhost:3306/loja?useTimezone=true&serverTimezone=UTC
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
