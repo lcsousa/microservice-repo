@@ -3,7 +3,6 @@ spring:
     password: admin
     url: jdbc:mysql://localhost:3306/security?useTimezone=true&serverTimezone=UTC
     username: root
-spring:
   jpa:
     hibernate:
       ddl-auto: update
